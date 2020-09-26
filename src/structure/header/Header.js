@@ -7,27 +7,27 @@ function Header(){
         <header>
             <div className="header_one">
                 <a href="/">
-                    <img src={logo}></img>
+                    <img src={logo} alt="logo"></img>
                 </a>
             </div>
             <div className="header_two">
                 <a href="/">
-                    Старая Мельница
+                    Кафе "Старая Мельница"
                 </a>
             </div>
             <div className="header_three">
                 <ul>
                     <li>
-                        <a href="#">Главная/О нас</a>
+                        <a href="#about">О нас</a>
                     </li>
                     <li>
-                        <a href="#">Меню/Услуги</a>
+                        <a href="#services">Услуги</a>
                     </li>
                     <li>
-                        <a href="#">Галерея</a>
+                        <a href="#gallery">Галерея</a>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a href="#contacts">Контакты</a>
                     </li>
                 </ul>
             </div>

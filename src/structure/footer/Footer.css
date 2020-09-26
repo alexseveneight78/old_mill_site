@@ -1,0 +1,17 @@
+footer {
+    width: 80%;
+    margin: auto; 
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;   
+    box-shadow: 0 -3px 3px #ccc;
+}
+.creator {
+    padding: 10px 15px;
+}
+
+.creator a img{
+    width: 40px;
+    height: 40px;
+}
