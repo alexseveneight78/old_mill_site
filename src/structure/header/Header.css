@@ -1,0 +1,46 @@
+header {
+    background-color: #eee;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.header_one, .header_two, .header_three {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-left: 75px;
+    background-color: #fff;
+}
+/* First header */
+
+.header_one a img {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+/* Second header */
+
+.header_two {
+    
+}
+
+/* Third header */ 
+
+.header_three ul {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.header_three ul li {
+    list-style-type: none;
+}
+
+.header_one ul li a {
+    text-decoration: none;
+    margin-right: 25px;
+}
