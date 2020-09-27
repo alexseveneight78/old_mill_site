@@ -1,24 +1,42 @@
 import React from 'react';
-import './Gallery';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import './Gallery.css';
+
+import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
 import f1 from '../../../images/photos/1.jpg'
 import f2 from '../../../images/photos/2.jpg'
 
+const fadeImages = [f1,f2];
 
+const Slideshow = () => {
+    return (
+      <div className="slide-container">
+        <Fade>
+          <div className="each-fade">
+            <div className="image-container">
+              <img src={fadeImages[0]} />
+            </div>
+          </div>
+          <div className="each-fade">
+            <div className="image-container">
+              <img src={fadeImages[1]} />
+            </div>
+          </div>
+          <div className="each-fade">
+            <div className="image-container">
+              <img src={fadeImages[2]} />
+            </div>
+          </div>
+        </Fade>
+      </div>
+    )
+  }
 function Gallery(){
-    const slider = (
-        <AwesomeSlider animation="cubeAnimation">
-          <div data-src={f1} />
-          <div data-src={f2} />
-        </AwesomeSlider>
-      );
     return(
         <div className="gallery">
             <a name="gallery">
-                <div className="window">
-                    photo 1 - {slider}
-                </div>
+                <Slideshow />
             </a>
         </div>
     )
