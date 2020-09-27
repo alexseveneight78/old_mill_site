@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/old-mill/static/css/main.b55291bf.chunk.css",
+    "main.js": "/old-mill/static/js/main.746bceeb.chunk.js",
+    "main.js.map": "/old-mill/static/js/main.746bceeb.chunk.js.map",
+    "runtime-main.js": "/old-mill/static/js/runtime-main.606a6bfb.js",
+    "runtime-main.js.map": "/old-mill/static/js/runtime-main.606a6bfb.js.map",
+    "static/css/2.69507427.chunk.css": "/old-mill/static/css/2.69507427.chunk.css",
+    "static/js/2.017d263e.chunk.js": "/old-mill/static/js/2.017d263e.chunk.js",
+    "static/js/2.017d263e.chunk.js.map": "/old-mill/static/js/2.017d263e.chunk.js.map",
+    "index.html": "/old-mill/index.html",
+    "precache-manifest.2970e7b7dc91d2c3c1b4e7ffb75b13e4.js": "/old-mill/precache-manifest.2970e7b7dc91d2c3c1b4e7ffb75b13e4.js",
+    "service-worker.js": "/old-mill/service-worker.js",
+    "static/css/2.69507427.chunk.css.map": "/old-mill/static/css/2.69507427.chunk.css.map",
+    "static/css/main.b55291bf.chunk.css.map": "/old-mill/static/css/main.b55291bf.chunk.css.map",
+    "static/js/2.017d263e.chunk.js.LICENSE.txt": "/old-mill/static/js/2.017d263e.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/old-mill/static/media/1.55e7f26a.jpg",
+    "static/media/2.jpg": "/old-mill/static/media/2.5b416e78.jpg",
+    "static/media/78logo_small.svg": "/old-mill/static/media/78logo_small.4e03a028.svg",
+    "static/media/mill-icon.svg": "/old-mill/static/media/mill-icon.3ea3fe44.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.606a6bfb.js",
+    "static/css/2.69507427.chunk.css",
+    "static/js/2.017d263e.chunk.js",
+    "static/css/main.b55291bf.chunk.css",
+    "static/js/main.746bceeb.chunk.js"
+  ]
+}
