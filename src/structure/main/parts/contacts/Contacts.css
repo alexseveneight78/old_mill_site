@@ -1,0 +1,14 @@
+.contacts {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts_person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:last-child {
+    text-decoration: none;
+}
