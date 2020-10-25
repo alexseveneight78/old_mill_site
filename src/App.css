@@ -1,7 +1,7 @@
 .App {
     width: 80%;
     margin: auto;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 @media screen and (max-width: 1200px) {
     .App {
@@ -13,6 +13,6 @@
 .line {
     width: 50%;
     border: 1px solid #ccc;
-    margin: 30px 25% 10px 25%;
+    margin: 30px 25% 20px 25%;
 }
 
