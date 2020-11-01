@@ -31,12 +31,6 @@ header {
     justify-content: center;
 }
 
-@media screen and (max-width: 425px) {
-    .header_two {
-        display: none;
-    }
-}
-
 .header_two a {
     padding: 10px 15px;
     text-decoration: none;
@@ -75,4 +69,13 @@ header {
 .header_three ul li a:hover {
     color: #ccc;
     transition: 0.6s;
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        justify-content: center;
+    }
+    .header_two {
+        display: none;
+    }
 }
