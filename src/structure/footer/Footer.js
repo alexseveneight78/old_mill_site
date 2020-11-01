@@ -6,7 +6,7 @@ function Footer(){
     return (
         <footer>
             <div className="creator">
-                Created by: <a href="https://github.com/alexseveneight78" target="_blank" rel="noopener noreferrer">
+                <div>Created by:</div><a href="https://github.com/alexseveneight78" target="_blank" rel="noopener noreferrer">
                     <img src={personal_logo} alt="personal_logo"></img>
                 </a>
             </div>

@@ -58,16 +58,18 @@ header {
     display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    line-height: 50px;
 }
 .header_three ul li {
     list-style-type: none;
     margin-right: 12px;
+    position: relative;
+    top: 30%;
 }
 
 .header_three ul li a {
     text-decoration: none;
     color: #000;
+    white-space: nowrap;
 }
 
 .header_three ul li a:hover {

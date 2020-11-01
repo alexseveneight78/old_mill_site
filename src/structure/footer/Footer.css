@@ -4,16 +4,48 @@ footer {
     justify-content: space-around;
     flex-wrap: nowrap;   
     box-shadow: 0 -3px 3px #ccc;
+    font-size: 0.8rem;
 }
 .creator {
     padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
+.creator div {
+    white-space: nowrap;
+}
 .creator a img{
     width: 40px;
     height: 40px;
 }
+.wish {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5px 0 5px;
+}
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
 .direct_contact {
-    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5px 0 0;
+}
+.direct_contact a {
+    text-align: left;
+}
+
+@media screen and (max-width: 425px){
+    footer {
+        font-size: 0.4rem;
+    }
+    .creator a img{
+        width: 25px;
+        height: 25px;
+    }
 }

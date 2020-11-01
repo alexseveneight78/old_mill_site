@@ -1,14 +1,36 @@
 .contacts {
     margin: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .contacts_person {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 49%;
+    font-size: 1.2rem;
+}
+.contacts_person div {
+    text-align: center;
 }
 a:last-child {
     text-decoration: none;
 }
+.contacts_address {
+    width: 49%;
+}
+
+iframe {
+    width: 100%;
+    height: 70vh
+}
+@media screen and (max-width: 425px) {
+    .contacts {
+        flex-direction: column-reverse;
+    }
+    .contacts_address,.contacts_person {
+        width: 100%;
+    }
+}
+

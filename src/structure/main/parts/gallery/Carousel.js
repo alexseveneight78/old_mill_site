@@ -27,7 +27,7 @@ import img22 from '../../../images/photos/22.jpg';
 
 export default function CarouselComponent() {
     return (
-        <div className="carousel-wrapper">
+        <div className="carousel-wrapper"><a name="gallery"></a>
             <Carousel infiniteLoop useKeyboardArrows autoPlay>
                 <div>
                     <img src={img1} alt="image1" />
